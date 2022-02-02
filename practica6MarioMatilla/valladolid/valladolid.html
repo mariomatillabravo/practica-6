@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+	<!--
+    Autor:Mario Matilla Bravo
+    Fecha:21-01-2022
+    e-mail:mario.matbra@educa.jcyl.es
+    Descripción:Sitio web TOUR -->
+	<head>
+		<meta chartset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+        <p id=inicio></p>
+        <!--Titulo de la pagina principal o index-->
+		<h1>TOUR POR CASTILLA Y LEÓN</h1>
+        <br>Mario Matilla Bravo
+        <br>21/01/2022
+        <!--Tabla que sirvira de menu para el resto del sitio web-->
+        <!--Titulo de la provincia que correspondera con al pagina web-->
+        <h1 align="center">PROVINCIA DE VALLADOLID
+            <br><img src="bandera.png" width="480" height="320">
+        </h1>
+        <p>
+            Lista de Contenidos:
+            <lu>
+                <li><a href=#localizacion>Localización</a></li>
+                <li><a href=#localidades>Localidades Pricipales</a></li>
+                <li><a href=#geografia>Geografía</a></li>
+                <li><a href=#historia>Historia</a></li>
+                <li><a href=#cultura>Cultura</a></li>
+                <li><a href=#naturaleza>Naturaleza</a></li>
+                <li><a href=#tradiciones>Tradiciones</a></li>
+                <li><a href=#otros>Otros</a></li>
+            </lu>
+        </p>
+        <br><table width=100% border="0">
+            <tr>
+                <!--En la primera columna ira todos los enlaces a el propio sitio web, es será, por asi decirlo, el menú del sitio web-->
+                <th width=20%>
+                    <a href="../index.html">Ir a Inicio</a><br>
+                    <a href="../zamora/zamora.html">Ir a Zamora</a><br>
+                    <a href="../salamanca/salamanca.html">Ir a Salamanca</a><br>
+                    <a href="../leon/leon.html">Ir a leon</a><br>
+                    <a href="../palencia/palencia.html">Ir a Palencia</a><br>
+                    <a href="../burgos/burgos.html">Ir a Burgos</a><br>
+                    <a href="../soria/soria.html">Ir a Soria</a><br>
+                    <a href="../segovia/segovia.html">Ir a Segovia</a><br>
+                    <a href="../avila/avila.html">Ir a Ávila</a><br>
+                    </th>
+                <th align="left">
+                    <p id=localizacion></p>
+                    <!--En la localización se mostrará donde se situa la provicia en cuestión, para ello se insertará un mapa de google maps para ubicarla perfectamente-->
+                    <h2>LOCALIZACIÓN</h2>
+                    <p>La ciudad de Valladolid se encuentra en la mitad norte de la península ibérica. Está situada en el centro de la Meseta Norte, división de la Meseta Central, por lo que presenta un paisaje típico, llano y con escasa vegetación. El relieve vallisoletano lo conforma una llanura interrumpida por pequeñas series de colinas que originan un paisaje montañoso de cerros testigos como el de San Cristóbal (843 m), a pocos kilómetros de la capital. Las coordenadas de la ciudad son 41º 38' N 4º 43' O. La altitud del centro de la ciudad es de 690 m s. n. m., mientras que la altitud máxima del municipio es de 863 m s. n. m., la cual se da al noreste del mismo, entre Páramo de Cabezón y Barco de San Pedro; y la altitud mínima es de 671 m s. n. m., la cual se da en el último tramo del río Duero dentro del municipio, a unos metros de su confluencia con el río Pisuerga.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190643.45103104485!2d-4.948895965156235!3d41.70316839263593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd47728c08c66e93%3A0xb3ff92d41ca26bef!2sValladolid!5e0!3m2!1ses!2ses!4v1643817443658!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=localidades></p>
+                    <!--Aqui se mostrarán las localidades principales-->
+                    <h2>LOCALIDADES PRINCIPALES</h2>
+                    <p align="center">A cotinuación se muestra un mapa interactivo de la provincia de Valladolid. Si clicamos en los nombres nos redirigira a la web oficial de cada zona
+                    <img src="mapa.jpg" alt="valladolid" usemap="#mapa" width="900" height="831">
+                    <map name="#mapa">
+                   <!--Se utliza la etiqueta shape para determinar la forma del area donde vamos a poder pinchar, coords se refiere a las corrdenadas de la propia imagen original,
+                    ademas este link nos abrira una pestaña nuevo en el buscador con la etiqueta target lo podemos conseguir-->
+                   <area shape="circle" coords="276,205,40" alt="campos" href="https://es.wikipedia.org/wiki/Tierra_de_Campos" target="blank">
+                   <area shape="circle" coords="334,395,40" alt="torozos" href="https://es.wikipedia.org/wiki/Montes_Torozos" target="blank">
+                   <area shape="circle" coords="487,361,40" alt="campiña" href="https://es.wikipedia.org/wiki/Campiña_del_Pisuerga" target="blank">
+                   <area shape="circle" coords="449,433,30" alt="valladolid" href="https://www.valladolid.es/es" target="blank">
+                   <area shape="circle" coords="620,400,40" alt="paramos" href="https://es.wikipedia.org/wiki/Valle_del_Esgueva" target="blank">
+                   <area shape="circle" coords="686,487,40" alt="peñafiel" href="https://es.wikipedia.org/wiki/Campo_de_Peñafiel" target="blank">
+                   <area shape="circle" coords="304,554,40" alt="tierra" href="https://es.wikipedia.org/wiki/Tierra_del_Vino_(Valladolid)" target="blank">
+                   <area shape="circle" coords="386,683,40" alt="medina" href="https://es.wikipedia.org/wiki/Tierra_de_Medina" target="blank">
+                   <area shape="circle" coords="512,553,40" alt="pinares" href="https://es.wikipedia.org/wiki/Tierra_de_Pinares" target="blank">
+
+                   </p>
+                   <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=geografia></p>
+                    <!--En este apartado se mostrará el relieve de esa zona-->
+                    <h2>GEOGRAFÍA</h2>
+                    <p>El término municipal cuenta con dos exclaves, uno al norte de Villanubla (Navabuena) y otro al oeste de Ciguñuela (El Rebollar).</p>
+                    <p>Su céntrica situación en la Meseta Norte le hace estar casi equidistante del resto de las ciudades castellanas. Palencia está a 50 kilómetros, Zamora a 104 kilómetros, Segovia a 117 kilómetros, Salamanca a 121 kilómetros, Burgos a 127 kilómetros, Ávila a 138 kilómetros, León a 139 kilómetros y Soria a 208 kilómetros.</p>
+                    <!--Este es un subapartado de la geografía donde se mostrara el pico mas alto de cada zona, Se agurmentará con imagenes y si es necesario se implementará un video-->
+                    <h3>PICO MÁS ALTO</h3>
+                    <p>El Pico Cuchillejo es el pico más alto de la provincia de Valladolid, alcanzando los 932 metros de altura, siendo por tanto el pico más alto de la Ribera del Duero vallisoletana.</p>
+                    <p>Se encuentra dentro del término municipal ribereño de Castrillo de Duero, a solo 200 metros del límite con la provincia de Segovia.</p>
+                    <img src="pico.jpg" width="1296" height="472">
+                    <br>source:<a href="https://www.rutadelvinoriberadelduero.es/es/recurso-natural/pico-cuchillejo">https://www.rutadelvinoriberadelduero.es/es/recurso-natural/pico-cuchillejo</a>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=historia></p>
+                    <!--En la historia se informará un poco de la historia de cada provincia-->
+                    <h2>HISTORIA</h2>
+                    <p>Hay indicios datables en el Paleolítico Inferior, esencialmente Achelense, recogido en superficie en las terrazas cuaternarias del río Pisuerga, en Canterac (que actualmente es un gran parque situado a las afueras); pero no se puede decir que la ciudad tuviera una ocupación estable hasta la Edad Media, que es posiblemente cuando surgió el topónimo que le da nombre. Los asentamientos posteriores en la actual provincia de Valladolid datan de épocas prerromanas, existiendo en la zona yacimientos de pueblos vacceos, que fueron pobladores de cultura muy avanzada, y, como el resto de pueblos célticos, llegaron a la península procedentes del norte de Europa. El máximo exponente de esta cultura en las cercanías, que fue arrasada por los romanos, es Pincia (Pintia), en la actual localidad de Padilla de Duero.</p>
+                    <img src="historia.jpg">
+                    <br>Monumento al conde Pedro Ansúrez, uno de los nobles más cercanos a Alfonso VI, que fue primer señor de Valladolid
+                    <p>Siglo XXI</p>
+                    <p>Como ciudad significativa en la evolución de la lengua castellana, se celebró entre el 16 y el 19 de octubre de 2001, en el Teatro Calderón, el II Congreso Internacional de la Lengua Española, foro de reflexión sobre el idioma español, presidido por los reyes de España.</p>
+                    <p>Valladolid fue premiada por la asociación internacional LUCI en 2011 con el Premio al Mejor Proyecto de Iluminación Urbana City People Light por la "Ruta Ríos de Luz" y en 2012 con el Premio del Jurado Popular al Mejor Proyecto de Iluminación Urbana de los Premios City People Light Awards. En 2012 Unicef declara a Valladolid Ciudad Amiga de la Infancia. En abril de 2013, Valladolid fue premiada con el Premio Reina Sofía de Accesibilidad de Municipios Españoles por su esfuerzo en la integración, normalización y participación activa de toda la ciudadanía sea cual sea su capacidad funcional.</p>
+                    <br>Si estás más interesado en el tema el agregamos un documental sobre la historias de Valladolid. Pinche <a href="https://www.youtube.com/watch?v=nEZrFPXhS18">aquí para verlo</a>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=cultura> 
+                    <!--En este apartado se mostrará la cultura local-->
+                    <h2>CULTURA</h2>
+                    <lu>-Museos-
+                        <li>El Museo Nacional de Escultura tiene relevancia internacional, por tener la colección escultórica más importante de la península y ser una de las más destacadas de Europa en su ámbito. Se remonta a 1842 como Museo Provincial de Bellas Artes, pero fue elevado a la categoría de Nacional en 1933.</li>
+                        <li>En el interior de la Catedral de Nuestra Señora de la Asunción se encuentra el Museo Diocesano y Catedralicio, inaugurado en 1965 por iniciativa del entonces Arzobispo de Valladolid, José García Goldáraz. Sus fondos se encuentran distribuidos a lo largo de diez capillas que agrupaban dependencias de la antigua colegiata medieval de Santa María erigida por el Conde Ansúrez, tales como Sala Capitular, Capilla del Claustro, Cabildo Catedralicio...</li>
+                        <li>En el Museo de Valladolid (Palacio de Fabio Nelli), que forma parte de los denominados "Museos provinciales", se exponen secciones de Arqueología que muestran una secuencia cronológica completa de piezas de la provincia vallisoletana desde el Paleolítico hasta la Edad Media</li>
+                    </lu>
+                    <h4>Semana Santa</h4>
+                    <p>La Semana Santa es el evento cultural más importante de la ciudad, debido a sus valiosas tallas policromadas de los siglos xvi y xvii de Juan de Juni, Gregorio Fernández o Francisco del Rincón, muchas de ellas expuestas durante el resto del año en el Museo Nacional de Escultura, atrayendo anualmente a visitantes de toda España y el resto del mundo.</p>
+                    <p>Esta celebración fue declarada de Interés Turístico Internacional en 1980, siendo de esta manera la primera celebración de la Semana Santa en España en ostentar dicha declaración. En 2014 se iniciaron los trámites para conseguir su reconocimiento como patrimonio cultural inmaterial de la Humanidad.</p>
+                    <img src="semna.jpg" width="640" height="413">
+                    <br>source:<a href="https://es.wikipedia.org/wiki/Valladolid#/media/Archivo:Nuestra_Señora_de_las_Angustias_(Juan_de_Juni,_hacia_1561).jpg">https://es.wikipedia.org/wiki/Valladolid#/media/Archivo</a>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=naturaleza></p>
+                    <!--Se informará brevemente sobre la naturaleza es decir, fauna y flora de la zona-->
+                    <h2>NATURALEZA</h2>
+                    <p>La provincia de Valladolid cuenta con Espacios Naturales que se distinguen por su valor natural, ya que están amparados y protegidos por la legislación autonómica y europea en base a su diversidad y calidad medioambiental. Sobresale la Reserva Natural de las Riberas de Castronuño-Vega del Duero, ubicada en la zona sur de la provincia, un paraíso para los amantes de la naturaleza en todo su esplendor...</p>
+                    <img src="nature.gif" width="500" height="294">
+                    <br><iframe width="560" height="315" src="https://www.youtube.com/embed/zbnBLk06MQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- weather widget start --><a target="_blank" href="https://hotelmix.es/weather/valladolid-18271"><img src="https://w.bookcdn.com/weather/picture/32_18271_1_4_95a5a6_250_7f8c8d_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=74196"  alt="booked.net"/></a><!-- weather widget end -->
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=tradiciones></p>
+                    <!--Se adjuntará información sobre las tradicciones de cada provincia-->
+                    <h2>TRADICIONES</h2>
+                    <p>A lo largo del año se celebran numerosos eventos culturales en la ciudad. Cronológicamente, el primer fin de semana después de la festividad de Reyes se celebra la concentración motorista invernal Pingüinos, la más numerosa de Europa, en la que se realizan todo tipo de actividades relacionadas con el mundo de las dos ruedas.</p>
+                    <img src="moto.jfif" width="640" height="360">
+                    <p>En primavera tenía también lugar el afamado e internacionalmente consolidado festival de música Valladolid Latino en el que desde 2006 y hasta 2015 han intervenido artistas como Alejandro Sanz, Juanes, Paulina Rubio, Julieta Venegas o Marc Anthony entre otros muchos.</p>
+                    <p>Desde 1946 los gigantes muñecones de El Tío Tragaldabas y La Tía Melitona han engullido a miles de niños vallisoletanos durante las Ferias y Fiestas de la Virgen de San Lorenzo celebradas durante el mes de septiembre.</p>
+                    <img src="gigante.jpg">
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+                    <!--Aquí se mostrarán aspectos relaccionados o de interes con esa provincia -->
+                    <h2>OTROS ASPECTOS</h2>
+                    <p>A lo largo de los tres primeros tercios del siglo xx, Valladolid experimentó un importante aumento de población, gracias al éxodo rural. Este crecimiento, lento durante las dos primeras décadas e interrumpido por la Guerra Civil, fue especialmente significativo desde los años sesenta, con la llegada de mano de obra foránea, y supuso el momento de mayor crecimiento demográfico en la historia de la capital. Sin embargo, a partir de los años ochenta se produjo un giro en esta tendencia, que supuso un estancamiento en el crecimiento de la población, debido a dos motivos: al cese de los flujos migratorios que habían impulsado el crecimiento en épocas pasadas y a un descenso brusco en la tasa de natalidad.</p>
+                    <img src="demo.png">
+                    <br>source:<a href="https://es.wikipedia.org/wiki/Valladolid#Cultura">https://es.wikipedia.org/wiki/Valladolid</a>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+                </th>
+            </tr>
+
+
+        </table>
+	</body>
+</html>

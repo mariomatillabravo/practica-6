@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+	<!--
+    Autor:Mario Matilla Bravo
+    Fecha:21-01-2022
+    e-mail:mario.matbra@educa.jcyl.es
+    Descripción:Sitio web TOUR -->
+	<head>
+		<meta chartset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+        <p id=inicio></p>
+        <!--Titulo de la pagina principal o index-->
+		<h1>TOUR POR CASTILLA Y LEÓN</h1>
+        <br>Mario Matilla Bravo
+        <br>21/01/2022
+        <!--Tabla que sirvira de menu para el resto del sitio web-->
+        <!--Titulo de la provincia que correspondera con al pagina web-->
+        <h1 align="center">PROVINCIA DE PALENCIA
+            <br><img src="bandera.png" width="480" height="320">
+        </h1>
+        <p>
+            Lista de Contenidos:
+            <lu>
+                <li><a href=#localizacion>Localización</a></li>
+                <li><a href=#localidades>Localidades Pricipales</a></li>
+                <li><a href=#geografia>Geografía</a></li>
+                <li><a href=#historia>Historia</a></li>
+                <li><a href=#cultura>Cultura</a></li>
+                <li><a href=#naturaleza>Naturaleza</a></li>
+                <li><a href=#tradiciones>Tradiciones</a></li>
+                <li><a href=#otros>Otros</a></li>
+            </lu>
+        </p>
+        <br><table width=100% border="0">
+            <tr>
+                <!--En la primera columna ira todos los enlaces a el propio sitio web, es será, por asi decirlo, el menú del sitio web-->
+                <th width=20%>
+                    <a href="../index.html">Ir a Inicio</a><br>
+                    <a href="../zamora/zamora.html">Ir a Zamora</a><br>
+                    <a href="../salamanca/salamanca.html">Ir a Salamanca</a><br>
+                    <a href="../leon/leon.html">Ir a leon</a><br>
+                    <a href="../valladolid/valladolid.html">Ir a Valladolid</a><br>
+                    <a href="../burgos/burgos.html">Ir a Burgos</a><br>
+                    <a href="../soria/soria.html">Ir a Soria</a><br>
+                    <a href="../segovia/segovia.html">Ir a Segovia</a><br>
+                    <a href="../avila/avila.html">Ir a Ávila</a><br>
+                    </th>
+                <th align="left">   
+                    <p id=localizacion></p>               
+                    <!--En la localización se mostrará donde se situa la provicia en cuestión, para ello se insertará un mapa de google maps para ubicarla perfectamente-->
+                    <h2>LOCALIZACIÓN</h2>
+                    <p>La ciudad de Palencia se encuentra en el norte de la península ibérica, en la submeseta Norte. El parque del Salón de Isabel II, centro geográfico de la ciudad, está situado en las coordenadas: 42º00'40 de latitud norte y 4º31'59 de longitud oeste. Se encuentra a 749 metros sobre el nivel del mar. Dista 235 km de Madrid.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23716.816625026695!2d-4.544463438281221!3d42.00881476955285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd47b1c905911a11%3A0x99b988742379a0dd!2sPalencia!5e0!3m2!1ses!2ses!4v1643823038947!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=localidades></p>
+                    <!--Aqui se mostrarán las localidades principales-->
+                    <h2>LOCALIDADES PRINCIPALES</h2>
+                    <p align="center">A cotinuación se muestra un mapa interactivo de la provincia de Palencia. Si clicamos en los nombres nos redirigira a la web oficial de cada zona.
+                    <img src="mapa.jpg" alt="palencia" usemap="#mapa" width="900" height="905">
+                    <map name="#mapa">
+                   <!--Se utliza la etiqueta shape para determinar la forma del area donde vamos a poder pinchar, coords se refiere a las corrdenadas de la propia imagen original,
+                    ademas este link nos abrira una pestaña nuevo en el buscador con la etiqueta target lo podemos conseguir-->
+                   <area shape="circle" coords="325,188,40" alt="palentinos" href="https://es.wikipedia.org/wiki/Montaña_Palentina" target="blank">
+                   <area shape="circle" coords="344,392,40" alt="paramos" href="https://es.wikipedia.org/wiki/Páramos-Valles" target="blank">
+                   <area shape="circle" coords="331,587,40" alt="tierras" href="https://www.diputaciondepalencia.es/sitio/turismo/zonas-destinos/tierra-campos" target="blank">
+                   <area shape="circle" coords="372,665,30" alt="palencia" href="https://www.aytopalencia.es" target="blank">
+                   <area shape="circle" coords="486,707,40" alt="cerrato" href="https://www.diputaciondepalencia.es/sitio/turismo/zonas-destinos/cerrato" target="blank">
+                   </p>
+                   <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                   <p id=geografia></p>
+                    <!--En este apartado se mostrará el relieve de esa zona-->
+                    <h2>GEOGRAFÍA</h2>
+                    <p>Palencia se encuentra a 749 m sobre el nivel del mar, en una zona de meseta llana, rodeada por varios montes: monte "El Chivo" y monte "El Viejo". Es precisamente esta orografía la que propicia que el clima de la capital sea algo más frío que el de localidades muy próximas como Valladolid acercándose sus temperaturas medias más a ciudades como León o Burgos, situadas a mayor altitud.</p>
+                    <!--Este es un subapartado de la geografía donde se mostrara el pico mas alto de cada zona, Se agurmentará con imagenes y si es necesario se implementará un video-->
+                    <h3>PICO MÁS ALTO</h3>
+                    <p>El pico Curavacas (2520 msnm) situado en el macizo de Fuentes Carrionas se considera la mayor elevación de la Montaña Palentina, en las estribaciones de la cordillera Cantábrica, en España, y es, junto con el Espigüete, su cima más característica.</p>
+                    <img src="pico.jfif" width="640" height="480">
+                    <br>source:<a href="https://es.wikipedia.org/wiki/Curavacas#/media/Archivo:Curavacas.JPG">https://es.wikipedia.org/wiki/Curavacas#/media/Archivo:Curavacas.JPG</a>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=historia></p>
+                    <!--En la historia se informará un poco de la historia de cada provincia-->
+                    <h2>HISTORIA</h2>
+                    <p>Edad Antigua</p>
+                    <p>Los orígenes históricos de la ciudad quedan inciertos, pero de lo que sí hay constatación arqueológica es de asentamientos prerromanos en el solar de la ciudad actual, a la que los celtíberos denominaron Pallantia. El pueblo que la ocupó fue el de los vacceos: el más culto de las tribus celtíberas, agrario y con una poderosa organización militar. </p>
+                    <p>El rastro más evidente de romanización que queda en la ciudad es el puente llamado Puentecillas, de origen romano aunque remodelado varias veces. Este puente permitía el acceso a la isla del Sotillo de los Canónigos. Aquí se sitúa el llamado Bolo de la Paciencia, una piedra redonda que fue el mentidero de la ciudad. El puente fue restaurado y remodelado en la Edad Media.</p>
+                    <img src="historia.jpg">
+                    <br>Excavaciones en la calle Canónigo San Martín 7, donde aparecieron varios niveles de ocupación romanos
+                    <br>source:<a href="https://es.wikipedia.org/wiki/Palencia#/media/Archivo:Archaeological_excavations_Pallantia_-_Canónigo_San_Martín_001.jpg">https://es.wikipedia.org/wiki/Palencia#/media/Archivo:Archaeological</a>
+                    <p>Edad Media</p>
+                    <p>La Edad Media es el período más turbulento de la historia de la ciudad, pero también el de mayor proyección en los acontecimientos en la historia del Reino de León y del Reino de Castilla. Alfonso VIII de Castilla fue el más decidido impulsor de la ciudad, al concederle fueros y el primer concejo libre, y establecer entre 1208 y 1212, a instancias del obispo Tello Téllez de Meneses, una institución educativa que fue la primera Universidad de España denominada Universidad de Palencia o Estudio General de Palencia, recibiendo la aprobación pontificia de Honorio III en 1221 y desapareciendo unas décadas más tarde. La ciudad luchó noblemente en la batalla de Las Navas de Tolosa, en 1212, lo que le supuso la adjudicación de diversos bienes.</p>                   
+                    <p>Edad Moderna</p>
+                    <p>La prosperidad económica del siglo xvi convirtió a Palencia, junto a otras provincias castellanas, en el corazón económico y demográfico del Imperio español. Ya en el siglo xviii, el acontecimiento más beneficioso para la vida de la ciudad fue la construcción del canal de Castilla impulsada por el rey Fernando VI continuada con Carlos III, una de las más representativas obras de ingeniería civil de la época en Europa, comienza en Alar del Rey y cuenta con 38 esclusas en la geografía palentina que riega de norte a sur.</p>
+                    <p>Siglo XXI</p>
+                    <p>En la actualidad es sobre todo una ciudad de servicios, aunque tiene una gran importancia la industria del automóvil y auxiliares, agroalimentarias y de materiales de construcción. Palencia ha experimentado profundos cambios urbanísticos. Como se ha dicho es hoy una de las ciudades con una mayor cantidad de espacios verdes por habitante de España y el centro tiene pocas calles que no sean peatonales. Estas zonas, al igual que los parques, siguen creciendo. Rodeando la ciudad se han instalado en la primera década del siglo xxi numerosos molinos eólicos que suministran energía limpia para la ciudad.</p>
+                    <p>El 10 de octubre de 2006 se inauguró el Nuevo Estadio Municipal La Balastera, un gran edificio de metal y cristal con cuatro torres inclinadas y translúcidas, obra del arquitecto Francisco Mangado. Se trata de un estadio de gran tamaño y espectacularidad a pesar de que fue realizado para el Club de Fútbol Palencia, equipo que en el momento de su construcción se encontraba en segunda división B y a día de hoy ha desaparecido.</p>
+                    <img src="historia2.jpg">
+                    <br>source:<a href="https://es.wikipedia.org/wiki/Palencia#/media/Archivo:Church_of_San_Pablo_in_Palencia.jpg">https://es.wikipedia.org/wiki/Palencia#/media/Archivo:Church_of_San_Pablo_in_Palencia</a>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=cultura> 
+                    <!--En este apartado se mostrará la cultura local-->
+                    <h2>CULTURA</h2>
+                    Para la cultura os mostraremos un video que resume bien toda la cultura local de palencia.
+                    <br><iframe width="560" height="315" src="https://www.youtube.com/embed/yV7odos9NDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Gatronimia</p>
+                    <p>La cocina palentina se basa en platos calientes, debido al frío clima dominante. Los ejemplos más claros son sus sopas de ajo, o la clásica sopa castellana, elaborada con pan de hogaza, agua, aceite, ajo y pimentón, a veces se añaden tacos de jamón serrano y huevos escalfados. El pan es la base de la gastronomía palentina, un ejemplo de la importancia que alcanza es el pan de Nogales, con una escuela dedicada al mismo, en la que elaboran el pan bonito, el lechuguino, los molletes, las tortas de chicharrones y otras muchas clases de panes, hechos con harina de Tierra de Campos, de gran calidad.</p>
+                    <p>Las carnes: Palencia, como el resto de Castilla, puede afirmar que las carnes nutren a sus gentes. La perdiz (en escabeche), y también la codorniz, en estas tierras se consideran de excelente calidad, el lechazo es la carne por excelencia de palencia y posee denominación de origen. En temporada de matanza pueden degustarse las morcillas de sangre de Palencia, de la misma sangre que luego se convierte en ingrediente esencial de la sopa negra. Los embutidos también son de buena calidad.</p>
+                    <p>Los pescados: Los cangrejos que se pescan en los ríos palentinos son los crustáceos por excelencia. De los ríos también se obtienen truchas (trucha en escabeche).</p>
+                    <p>Las Verduras: En cuanto a su riqueza hortícola, son excelentes las patatas pero sobre todo la menestra palentina o el pisto y los guisantes de Palencia.</p>
+                    <p>Los postres: Destaca la cazuela de san Antolin; también son muy recomendables las jaleas de frutas autóctonas, como los arándanos, o el queso (sobre todo de oveja) y otros productos de repostería más elaborados.</p>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=naturaleza></p>
+                    <!--Se informará brevemente sobre la naturaleza es decir, fauna y flora de la zona-->
+                    <h2>NATURALEZA</h2>
+                    <p>La naturaleza invade hasta el último rincón de la provincia de Palencia, desde sus interrumpidas llanuras en el Cerrato Palentino y las grutas que conforman sus bodegas, pasando por los infinitos mares de Tierra de Campos que desembocan a los pies de la grandiosa Montaña Palentina.</p>
+                    <p>Sin duda alguna, Palencia ofrece una variedad de entornos naturales que destacan por su singularidad y calidad ambiental. Por ello, la provincia de Palencia cuenta con cinco Espacios Naturales Protegidos, un Parque Natural y un GeoParque UNESCO. Organismos que velan por la sostenibilidad del entorno y proporcionan una garantía de calidad.</p>
+                    <img src="paisaje.jpeg" width="533" height="355">
+                    <img src="paisaje1.jpg" width="533" height="355">
+                    <!-- weather widget start --><a target="_blank" href="https://hotelmix.es/weather/palencia-854"><img src="https://w.bookcdn.com/weather/picture/32_854_1_4_e74c3c_250_c0392b_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=74196"  alt="booked.net"/></a><!-- weather widget end -->
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <p id=tradiciones></p>
+                    <!--Se adjuntará información sobre las tradicciones de cada provincia-->
+                    <h2>TRADICIONES</h2>
+                    Listas de las Fistas populares:
+                    <lu>
+                        <li>1 de Enero: Bautizo del Niño. Tras una ceremonia religiosa, la cofradía, que tiene su sede en San Miguel, lleva en procesión al niño alrededor de la iglesia bailándolo al ritmo de un villancico medieval que relata desde las profecías hasta los acontecimientos que rodearon al nacimiento de Jesús. Siguiendo la tradición de los bautizos, la madrina tira desde un balcón caramelos y monedas a los asistentes.</li>
+                        <li>17 de Enero: San Antón. También en la iglesia de San Miguel se presentan semillas y animales para que sean bendecidos. El acto se ameniza con coplas sobre la vida y milagros del santo.</li>
+                        <li>2 de Febrero: La virgen de la Calle. Jornada festiva en Palencia para honrar a su patrona. Se recorre la ciudad con pasacalles y el aire se llena de cantos y danzas tradicionales.</li>
+                        <li>16 de Abril: Santo Toribio. Desde la ermita del Cristo del Otero, la corporación municipal recuerda la lapidación de que fue objeto el santo, pero invirtiendo la situación; son los palentinos los apedreados con pan y quesillo. La romería continúa con una fiesta a los pies del cerro. Si la fecha coincide en Domingo, se celebra el domingo siguiente. Agregamos un pequeño video de la propia celebración:<a href="https://www.youtube.com/watch?v=GmeUicub5dA">https://www.youtube.com/watch?v=GmeUicub5dA</a></li>
+                        <li>25 de Abril: San Marcos. La romería tiene lugar ahora en el Sotillo y la tradición exige comer una caracolada. Lo que nació como rogativa ahora se ha convertido en una verbena.</li>
+                        <li>15 de Mayo: San Isidro. La cofradía del Santo organiza una procesión tradicional para presentar los frutos de la tierra y bendecir los campos.</li>
+                        <li>24 de Junio: San Juanillo. La víspera se celebra una misa en la iglesia de San Juan. Tras besar la reliquia, se bendice el tomillo que luego reparte la Corporación municipal. El día de San Juan los niños levantan altares al santo y recorren la ciudad con un platillo y una estampa pidiendo "una limosna pa' San Juanillo".</li>
+                        <li>2 de Septiembre: San Antolín. Día central de las fiestas grandes de la ciudad. Se recuerda al santo con una misa en la Catedral y bebiendo agua del pozo milagroso de su cripta.</li>
+                    </lu>
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+
+                    <!--Aquí se mostrarán aspectos relaccionados o de interes con esa provincia -->
+                    <h2>OTROS ASPECTOS</h2>
+                    <p>Históricamente ha sido un centro receptor de migración interior, especialmente durante las décadas 1950-1970 en el llamado éxodo rural, al tener una industria más activa y dinámica que las comarcas circundantes como Tierra de Campos y El Cerrato. El crecimiento anual relativo fue del 1,01 % (periodo 2005-2006), siendo una de las pocas excepciones de toda la provincia, que por lo general pierde población, y así lo ha vuelto a hacer desde 2009. La ciudad está habitada por 78 892 habitantes (INE 2017).</p>
+                    <img src="demo.png">
+
+                    <br><a href=#inicio><p align="center">VOLVER ARRIBA</p></a>
+                </th>
+            </tr>
+
+
+        </table>
+	</body>
+</html>
